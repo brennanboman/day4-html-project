@@ -1,0 +1,72 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+
+}
+.content {
+display: flex;
+flex-direction: column;
+}
+
+.textBox {
+line-height: 1.5;
+font-family: sans-serif;
+font-size: 20px;
+margin-top: 30px;
+}
+
+.wikimedia {
+  font-weight: bold;
+}
+
+.welcome {
+  display: flex;
+  justify-content: flex-end;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.linksContainer > a {
+  height: 135px;
+  width: 135px;
+  margin: 15px;
+}
+
+.bottom {
+  border-top: 1px solid gray;
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.thatsOurCommitment {
+  text-align: center;}
+
+.imagine {
+  text-align: center;
+}
+
+.bottomLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.termOfUse {
+  padding-right: 15px;
+}
+
+.privacyPolicy {
+  .padding-left: 15px;
+}
